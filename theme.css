@@ -1,0 +1,130 @@
+body {
+  font: 20px/1.5 Arial, Helvetica, Sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #fdfcfc;
+}
+
+.header {
+  min-height: 50px;
+  /* border-bottom: #efb1aa 2px solid; */
+}
+
+.banner {
+  background-color: #05386b;
+  /* background-image: url('https://source.unsplash.com/1600x900/?plan,postit'); */
+  min-height: 400px;
+  text-align: center;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #05386b;
+}
+
+
+.footer {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.header h1 {
+  margin: 15px;
+  float: left;
+  color: #05386b;
+}
+
+.header nav {
+  float: right;
+  /* font-size: 18px; */
+}
+
+#banner-bold {
+  font-weight: bold;
+  color:#379683;
+}
+
+.header nav li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  display: block;
+}
+
+.banner div h1 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.get-started input {
+  height: 40px;
+  width: 30%;
+  padding: 0;
+}
+
+.get-started button {
+  height: 40px;
+  width: 10%;
+  padding: 0;
+}
+
+.circle {
+  text-align: center;
+  position: relative;
+  color: white;
+  width: 200px;
+  height: 200px;
+  background: rgb(28, 128, 66);
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+
+.package-header {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  left: 50%;
+  margin-left: -100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  float: left;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.package-container {
+  display: inline;
+}
+
+.packages {
+  width: 100%;
+  display: block;
+  min-height: 400px;
+  margin: auto;
+}
+
+.typewrite {
+  text-decoration: none;
+  cursor: default;
+  color: white;
+
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff; }
+}
