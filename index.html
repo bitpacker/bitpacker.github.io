@@ -1,101 +1,96 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' href='theme.css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>eprojectplan</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/theme.css">
+</head>
+<body>
+  <header class='header'>
+    <div class="logo">
+      <h1>
+        <span class='logo-punch'>e</span>Projectplan
+      </h1>
+    </div>
+    <div class='signup'>
+      <a href='#'>Login</a>
+    </div>
+  </header>
 
-  <body>
-    <section class='header'>
-      <div class='container'>
-        <h1><span id='banner-bold'>e</span>Projectplan</h1>
-        <nav>
-          <ul>
-            <li><a href='#'>Home</a></li>
-            <li><a href='#'>About</a></li>
-            <li><a href='#'>Pricing</a></li>
-            <li><a href='#'>Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </section>
-
-    <section class='banner'>
-      <div class='container'>
-        <h1>
-          The best way to
-          <a href="" class='typewrite' data-period="2000" data-type='["Plan", "Coordinate", "Achieve", "Succeed" ]'></a> 
-          <span class='wrap'></span>
-        </h1>
-        <div class='get-started'>
-          <input type='email' placeholder="Enter email">
-          <button>Get started</button>
-        </div>
-      </div>
-    </section>
+  <section class='showcase'>
+    <!-- <img src='/images/showcase.jpg' /> -->
+    <div class='showcase-content'>
+      <h3>The best way to 
+        <span href='' class='typewriter' data-period="2000" data-type='["Plan", "Coordinate", "Achieve", "Succeed" ]'></span>
+        <span class='wrap'></span>
+      </h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos pariatur praesentium quo sequi in voluptas, libero fugit. Est, omnis voluptate.</p>
+      <a href=''>Read More</a>
+    </div>
     
-    <section class='packages'>
-      <div class='package-container'>
-        <div class='card'>
-          <div class='circle'>
-            <div class='package-header'>Gold</div>
-          </div>
-          <p>We can put gold content here. What offers user gets etc</p>
-        </div>
+  </section>
 
-        <div class='card'>
-          <div class='circle'>
-            <div class='package-header'>Silver</div>
-          </div>
-          <p>We can put silver content here. What offers user gets etc</p>
-        </div>
+  <main class='main-content'>
+    <section class='extra-info-section'>
+      <div class="extra-info-container">
+        <h4>Prince 2</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt quis qui unde ad ipsam saepe laborum, tempore hic architecto eius! Adipisci blanditiis cumque nesciunt. Voluptas totam cum dolores quos.</p>
+      </div>
+    </section>
 
-        <div class='card'>
-          <div class='circle'>
-            <div class='package-header'>Bronze</div>
-          </div>
-          <p>We can put bronze content here. What offers user gets etc</p>
+    <section class='packages-section'>
+      <div class="card">
+        <div class="card-title">
+          <h1><i class='fa fa-bolt package-icon' style='color:#379683'></i></h1>
+          <h4>Basic</h4>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex adipisci perspiciatis architecto sit officiis eum autem eligendi, illo suscipit ea minus quaerat quidem saepe nobis est at quibusdam. Sequi culpa unde fuga odio quis provident autem illo cupiditate nobis! Quos?</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <h1><i class='fa fa-bolt package-icon' style='color:#379683'></i></h1>
+          <h4>Premium</h4>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex adipisci perspiciatis architecto sit officiis eum autem eligendi, illo suscipit ea minus quaerat quidem saepe nobis est at quibusdam. Sequi culpa unde fuga odio quis provident autem illo cupiditate nobis! Quos?</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <h1><i class='fa fa-bolt package-icon' style='color:#379683'></i></h1>
+          <h4>Enterprise</h4>
+        </div>
+        <div class="card-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex adipisci perspiciatis architecto sit officiis eum autem eligendi, illo suscipit ea minus quaerat quidem saepe nobis est at quibusdam. Sequi culpa unde fuga odio quis provident autem illo cupiditate nobis! Quos?</p>
         </div>
       </div>
     </section>
 
-    <section class='footer'>
-      Copyright &copy; 2018 eProjectplan
-    </footer>
-    <script>
-      // function updatePunch(content) {
-      //   $('.punch').html(content);
-      // }
+    <section class='about-us'>
+      <h5>
+        About Us
+      </h5>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium debitis quos asperiores, praesentium pariatur doloremque dolore consectetur distinctio officiis similique dolores culpa nihil tempora quibusdam? Alias molestias omnis repudiandae cum tempore at, et similique nesciunt temporibus animi suscipit voluptatem, excepturi atque debitis necessitatibus incidunt praesentium unde delectus nisi consequuntur repellat!
+      </p>
+    </section>
+  </main>
 
-      // $( document ).ready(function() {
-      //   var content = [
-      //     '|',
-      //     '| P',
-      //     'P |',
-      //     'Pl |',
-      //     'Pla |',
-      //     'Plan |'
-      //   ];
-      //   var doneSoFar = [];
+  <footer class='footer'>
+    <div class='footer-content'>
+      Copyright &copy; 2018 eprojectplan
+    </div>
+  </footer>
 
-      //   setInterval(function() {
-      //     var currentContent = content.pop();
-      //     var j;
-
-      //     doneSoFar.push(currentContent);
-      //     if (content.length === 0) {
-      //       doneSoFar.forEach(function(item, i) {
-      //         doneSoFar.splice(i, 1);
-      //         content.push(item);
-      //       });
-      //     }  
-
-      //     updatePunch(currentContent);
-      //   }, 300);
-      // });
-      var TxtType = function(el, toRotate, period) {
+  <script>
+    var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
@@ -137,7 +132,7 @@
     };
 
     window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
+        var elements = document.getElementsByClassName('typewriter');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
             var period = elements[i].getAttribute('data-period');
@@ -148,10 +143,11 @@
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; color: #5cdb95; animation: blink-caret .75s step-end infinite; }";
+        css.innerHTML = ".typewriter > .wrap { border-right: 0.08em solid #fff; color: #5cdb95; animation: blink-caret .75s step-end infinite; }";
         document.body.appendChild(css);
     };
-      
-    </script>
-  </body>
+  
+  </script>
+  
+</body>
 </html>
